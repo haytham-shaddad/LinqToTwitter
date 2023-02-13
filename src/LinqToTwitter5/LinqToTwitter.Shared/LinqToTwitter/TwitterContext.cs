@@ -547,6 +547,9 @@ namespace LinqToTwitter
                 case nameof(Search):
                     req = new SearchRequestProcessor<T>();
                     break;
+                case nameof(PremiumSearch):
+                    req = new PremiumSearchRequestProcessor<T>();
+                    break;
                 case nameof(Status):
                     req = new StatusRequestProcessor<T>();
                     break;

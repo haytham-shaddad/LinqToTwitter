@@ -115,6 +115,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Mute\MuteRequestProcessor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mute\MuteType.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mute\TwitterContextMuteCommands.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PremiumSearch\PremiumSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PremiumSearch\PremiumSearchMetaData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PremiumSearch\PremiumSearchRequestProcessor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PremiumSearch\PremiumSearchType.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Raw\Raw.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Raw\RawRequestProcessor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Raw\TwitterContextRawCommands.cs" />

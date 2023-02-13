@@ -160,6 +160,17 @@ namespace LinqToTwitter
         }
 
         /// <summary>
+        /// enables access to Twitter Premium Search to query tweets
+        /// </summary>
+        public TwitterQueryable<PremiumSearch> PremiumSearch
+        {
+            get
+            {
+                return new TwitterQueryable<PremiumSearch>(this);
+            }
+        }
+
+        /// <summary>
         /// enables access to Twitter Status messages
         /// </summary>
         public TwitterQueryable<Status> Status
